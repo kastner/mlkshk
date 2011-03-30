@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		578536DF1342D4B4006AD0C9 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 578536DE1342D4B4006AD0C9 /* JSONKit.m */; };
 		578536E21342D9FE006AD0C9 /* MlkImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 578536E11342D9FE006AD0C9 /* MlkImage.m */; };
+		578536E5134385B7006AD0C9 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 578536E3134385B7006AD0C9 /* Base64Transcoder.c */; };
 		5789F708134253DB0052C24F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5789F707134253DB0052C24F /* Cocoa.framework */; };
 		5789F712134253DB0052C24F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5789F710134253DB0052C24F /* InfoPlist.strings */; };
 		5789F715134253DB0052C24F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5789F714134253DB0052C24F /* main.m */; };
@@ -19,6 +20,7 @@
 		5789F72D134253DC0052C24F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5789F72B134253DC0052C24F /* InfoPlist.strings */; };
 		5789F730134253DC0052C24F /* mlkshkTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5789F72F134253DC0052C24F /* mlkshkTests.h */; };
 		5789F732134253DC0052C24F /* mlkshkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5789F731134253DC0052C24F /* mlkshkTests.m */; };
+		5790E1031343B21D00F3C1CC /* MlkUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5790E1021343B21C00F3C1CC /* MlkUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		578536DE1342D4B4006AD0C9 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		578536E01342D9FE006AD0C9 /* MlkImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MlkImage.h; sourceTree = "<group>"; };
 		578536E11342D9FE006AD0C9 /* MlkImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MlkImage.m; sourceTree = "<group>"; };
+		578536E3134385B7006AD0C9 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		578536E4134385B7006AD0C9 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
 		5789F703134253DB0052C24F /* mlkshk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mlkshk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5789F707134253DB0052C24F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5789F70A134253DB0052C24F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -55,6 +59,8 @@
 		5789F72E134253DC0052C24F /* mlkshkTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mlkshkTests-Prefix.pch"; sourceTree = "<group>"; };
 		5789F72F134253DC0052C24F /* mlkshkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mlkshkTests.h; sourceTree = "<group>"; };
 		5789F731134253DC0052C24F /* mlkshkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlkshkTests.m; sourceTree = "<group>"; };
+		5790E1011343B21C00F3C1CC /* MlkUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MlkUser.h; sourceTree = "<group>"; };
+		5790E1021343B21C00F3C1CC /* MlkUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MlkUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,8 @@
 		5789F70D134253DB0052C24F /* mlkshk */ = {
 			isa = PBXGroup;
 			children = (
+				578536E3134385B7006AD0C9 /* Base64Transcoder.c */,
+				578536E4134385B7006AD0C9 /* Base64Transcoder.h */,
 				578536DB1342D4A1006AD0C9 /* JSONKit */,
 				5789F719134253DB0052C24F /* mlkshkAppDelegate.h */,
 				5789F71A134253DB0052C24F /* mlkshkAppDelegate.m */,
@@ -134,6 +142,8 @@
 				5789F70E134253DB0052C24F /* Supporting Files */,
 				578536E01342D9FE006AD0C9 /* MlkImage.h */,
 				578536E11342D9FE006AD0C9 /* MlkImage.m */,
+				5790E1011343B21C00F3C1CC /* MlkUser.h */,
+				5790E1021343B21C00F3C1CC /* MlkUser.m */,
 			);
 			path = mlkshk;
 			sourceTree = "<group>";
@@ -279,6 +289,8 @@
 				5789F71B134253DB0052C24F /* mlkshkAppDelegate.m in Sources */,
 				578536DF1342D4B4006AD0C9 /* JSONKit.m in Sources */,
 				578536E21342D9FE006AD0C9 /* MlkImage.m in Sources */,
+				578536E5134385B7006AD0C9 /* Base64Transcoder.c in Sources */,
+				5790E1031343B21D00F3C1CC /* MlkUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
