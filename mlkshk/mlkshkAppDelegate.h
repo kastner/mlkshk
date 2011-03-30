@@ -7,12 +7,21 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MlkImage.h"
 
 @interface mlkshkAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    IBOutlet NSTextField *username;
+    IBOutlet NSSecureTextField *password;
+    IBOutlet NSCollectionView *friendGrid;
+    
+    NSMutableArray *images;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (readwrite, retain) NSMutableArray *images;
+
+- (IBAction)linkItUp:(id)sender;
 
 @end

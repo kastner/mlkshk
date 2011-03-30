@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		578536DF1342D4B4006AD0C9 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 578536DE1342D4B4006AD0C9 /* JSONKit.m */; };
+		578536E21342D9FE006AD0C9 /* MlkImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 578536E11342D9FE006AD0C9 /* MlkImage.m */; };
 		5789F708134253DB0052C24F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5789F707134253DB0052C24F /* Cocoa.framework */; };
 		5789F712134253DB0052C24F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5789F710134253DB0052C24F /* InfoPlist.strings */; };
 		5789F715134253DB0052C24F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5789F714134253DB0052C24F /* main.m */; };
@@ -30,23 +32,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		578536DD1342D4B4006AD0C9 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		578536DE1342D4B4006AD0C9 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		578536E01342D9FE006AD0C9 /* MlkImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MlkImage.h; sourceTree = "<group>"; };
+		578536E11342D9FE006AD0C9 /* MlkImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MlkImage.m; sourceTree = "<group>"; };
 		5789F703134253DB0052C24F /* mlkshk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mlkshk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5789F707134253DB0052C24F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5789F70A134253DB0052C24F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5789F70B134253DB0052C24F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5789F70C134253DB0052C24F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5789F70F134253DB0052C24F /* mlkshk-Info.plist */ = {isa = PBXFileReference; path = "mlkshk-Info.plist"; sourceTree = "<group>"; };
+		5789F70F134253DB0052C24F /* mlkshk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mlkshk-Info.plist"; sourceTree = "<group>"; };
 		5789F711134253DB0052C24F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5789F713134253DB0052C24F /* mlkshk-Prefix.pch */ = {isa = PBXFileReference; path = "mlkshk-Prefix.pch"; sourceTree = "<group>"; };
+		5789F713134253DB0052C24F /* mlkshk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mlkshk-Prefix.pch"; sourceTree = "<group>"; };
 		5789F714134253DB0052C24F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5789F717134253DB0052C24F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5789F719134253DB0052C24F /* mlkshkAppDelegate.h */ = {isa = PBXFileReference; path = mlkshkAppDelegate.h; sourceTree = "<group>"; };
+		5789F719134253DB0052C24F /* mlkshkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mlkshkAppDelegate.h; sourceTree = "<group>"; };
 		5789F71A134253DB0052C24F /* mlkshkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlkshkAppDelegate.m; sourceTree = "<group>"; };
 		5789F71D134253DB0052C24F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5789F724134253DB0052C24F /* mlkshkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mlkshkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5789F72A134253DC0052C24F /* mlkshkTests-Info.plist */ = {isa = PBXFileReference; path = "mlkshkTests-Info.plist"; sourceTree = "<group>"; };
+		5789F72A134253DC0052C24F /* mlkshkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mlkshkTests-Info.plist"; sourceTree = "<group>"; };
 		5789F72C134253DC0052C24F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5789F72E134253DC0052C24F /* mlkshkTests-Prefix.pch */ = {isa = PBXFileReference; path = "mlkshkTests-Prefix.pch"; sourceTree = "<group>"; };
+		5789F72E134253DC0052C24F /* mlkshkTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mlkshkTests-Prefix.pch"; sourceTree = "<group>"; };
 		5789F72F134253DC0052C24F /* mlkshkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mlkshkTests.h; sourceTree = "<group>"; };
 		5789F731134253DC0052C24F /* mlkshkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlkshkTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		578536DB1342D4A1006AD0C9 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				578536DD1342D4B4006AD0C9 /* JSONKit.h */,
+				578536DE1342D4B4006AD0C9 /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
 		5789F6F8134253DB0052C24F = {
 			isa = PBXGroup;
 			children = (
@@ -112,10 +127,13 @@
 		5789F70D134253DB0052C24F /* mlkshk */ = {
 			isa = PBXGroup;
 			children = (
+				578536DB1342D4A1006AD0C9 /* JSONKit */,
 				5789F719134253DB0052C24F /* mlkshkAppDelegate.h */,
 				5789F71A134253DB0052C24F /* mlkshkAppDelegate.m */,
 				5789F71C134253DB0052C24F /* MainMenu.xib */,
 				5789F70E134253DB0052C24F /* Supporting Files */,
+				578536E01342D9FE006AD0C9 /* MlkImage.h */,
+				578536E11342D9FE006AD0C9 /* MlkImage.m */,
 			);
 			path = mlkshk;
 			sourceTree = "<group>";
@@ -259,6 +277,8 @@
 			files = (
 				5789F715134253DB0052C24F /* main.m in Sources */,
 				5789F71B134253DB0052C24F /* mlkshkAppDelegate.m in Sources */,
+				578536DF1342D4B4006AD0C9 /* JSONKit.m in Sources */,
+				578536E21342D9FE006AD0C9 /* MlkImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +461,7 @@
 				5789F737134253DC0052C24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5789F738134253DC0052C24F /* Build configuration list for PBXNativeTarget "mlkshkTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +470,7 @@
 				5789F73A134253DC0052C24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
